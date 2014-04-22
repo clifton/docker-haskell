@@ -30,3 +30,4 @@ RUN rm -fr cabal-install-1.18.0.3*
 # clean up apt
 RUN apt-get clean
 
+ENV PATH /.cabal/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
